@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:warnninget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@android:color/white">
+
+    <com.example.ast.warnningedittext.WarnningEditText
+        android:id="@+id/warnning_et"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <com.example.ast.warnningedittext.WarnningEditText
+        android:id="@+id/warnning_et2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/warnning_et"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+
+</RelativeLayout>
